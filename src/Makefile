@@ -10,4 +10,4 @@ src-$(CONFIG_HAVE_GPIO_HARD_PWM) += pwmcmds.c
 src-$(CONFIG_HAVE_GPIO_BITBANGING) += lcd_st7920.c lcd_hd44780.c buttons.c \
     tmcuart.c spi_software.c neopixel.c sensor_adxl345.c pulse_counter.c
 src-$(CONFIG_HAVE_SERVO_STEPPER) += virtual_stepper.c driver_a4954.c \
-    servo_stepper.c
+    servo_stepper.c spi_position.c
